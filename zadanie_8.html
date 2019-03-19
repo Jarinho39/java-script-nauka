@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title> JavaScript</title>
+    </head>
+    <body>
+        <script>
+        while(true)
+           {
+               var x=prompt("Podaj pierwszy bok trójkąta "); 
+               if(x>0)
+                   break;
+           }
+        while(true)
+            {
+                 var y=prompt("Podaj drugi bok trójkąta "); 
+                if(y>0)
+                   break;
+            } 
+            while(true)
+            {
+                 var z=prompt("Podaj trzeci bok trójkąta "); 
+                if(z>0)
+                   break;
+            }
+      
+            x=parseInt(x);
+            y=parseInt(y);
+            z=parseInt(z);
+     
+            if (x+y>=z && x+z>=y && y+z>=x)
+                {
+                    document.write("Z podanych odcinków: "+x+" , "+y+" oraz "+z+" można zbudować trójkąt" );
+                }
+         else{
+             document.write("Z podanych odcinków: "+x+" , "+y+" oraz "+z+" nie można zbudować trójkąta" );
+         }
+          
+            
+            
+    
+        
+        </script>
+    
+        
+    </body>
+
+
+</html>
